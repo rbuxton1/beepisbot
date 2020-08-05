@@ -9,6 +9,7 @@
   },
   "author": "Ryan Buxton",
   "license": "WTFPL",
+  "repository": "https://github.com/rbuxton1/beepisbot",
   "dependencies": {
     "discord.js": "^12.2.0",
     "wget-improved": "^3.2.0"

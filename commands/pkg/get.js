@@ -1,6 +1,12 @@
 const { Client, MessageAttachment } = require('discord.js');
 const settings = require(process.cwd() + "/config.json");
 
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * COMMAND NAME: get
+ * COMMAND USAGE: [prefix] get [file]
+ * COMMAND INFO: Allows for downloading of installed 
+ *              commands.
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 module.exports = function(msg, client){
   if(settings.admins.includes(msg.author.id)){
     var arrMsg = msg.content.split(" ");
