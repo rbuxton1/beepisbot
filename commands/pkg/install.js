@@ -4,7 +4,7 @@ const fs = require("fs");
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * *
  * COMMAND NAME: Install
- * COMMAND USAGE: [prefix] install
+ * COMMAND USAGE: [prefix] install [optinal:path]
  *                NOTE: Message must have an attachment!
  * COMMAND INFO: Used to install new commands over Discord.
  * * * * * * * * * * * * * * * * * * * * * * * * * * * */
